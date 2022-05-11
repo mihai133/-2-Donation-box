@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 52%;
+  }
+}
+
+@media (max-width: 425px) {
+  .app-box {
+    max-width: 32.3rem;
+  }
+
+  .cash-remaining-box {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .input-btn-box {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .input-box {
+    grid-column: 1/ -1;
+  }
+
+  .donate-btn {
+    grid-column: 1/ -1;
+  }
+}
